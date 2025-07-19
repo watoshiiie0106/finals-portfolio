@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me - Bryan Joshua S.I Zablan</title>
+  <link rel="stylesheet" href="../../assets/css/header.css">
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+  <style>
+    .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px) scale(1.03);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    }
+
+    .nav-link {
+      position: relative;
+      transition: color 0.3s ease;
+    }
+
+    .nav-link::after {
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      background-color: #fcbf49;
+      transition: width 0.3s ease;
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
+    }
+    .profile-pic {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="nav-container">
+      <div class="logo">
+        <!-- Logo could go here -->
+      </div>
+      <nav class="nav-menu">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="#about" class="nav-link active">About Me</a>
+        <a href="../Education/index.html" class="nav-link">Education</a>
+        <a href="../Projects/index.html" class="nav-link">Projects</a>
+        <a href="../Contact_information/index.html" class="nav-link">Contact Information</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="about-hero">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h1>About Me</h1>
+            <h2>Passionate about <span class="highlight2">Making money</span></h2>
+            <p class="about-intro">
+              I'm Bryan Joshua S.I Zablan, a student at Far Eastern University Institute of Technology currently studying a Bachelor of Science in Information Technology major in Cybersecurity.
+            </p>
+          </div>
+          <div class="about-image">
+            <div class="image-container">
+              <img src="./assets/img/123.jpg" alt="Photo of Bryan Joshua S.I Zablan" class="profile-pic">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-details">
+      <div class="container">
+        <h2 class="section-title">Profile Summary & Hobbies</h2>
+        <div class="scroll-container">
+          <div class="cards-wrapper" id="cardsWrapper">
+            <div class="card">
+              <h3><i class="fas fa-user"></i> Personal Information</h3>
+              <ul class="info-list">
+                <li>22 Years Old</li>
+                <li>Lives in <span class="highlight">Quezon City</span></li>
+                <li>Studying Information Technology Major in Cybersecurity</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3><i class="fas fa-code"></i> Technical Skills</h3>
+              <ul>
+                <li>Basic knowledge in C++</li>
+                <li>Basic Knowledge in Cybersecurity</li>
+                <li>Basic Knowledge in Web Development</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3><i class="fas fa-heart"></i> Hobby</h3>
+              <ul>
+                <li>Watching Movies</li>
+                <li>Playing Games</li>
+                <li>Billiards</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3><i class="fas fa-graduation-cap"></i> School Related</h3>
+              <ul>
+                <li>Watching clips about programming</li>
+                <li>Watching TikTok / YouTube tutorials</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="slideshow-controls">
+          <span class="dot active" data-slide="0"></span>
+          <span class="dot" data-slide="1"></span>
+          <span class="dot" data-slide="2"></span>
+          <span class="dot" data-slide="3"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="personal-section">
+      <div class="container">
+        <h2>Fun Facts About Me</h2>
+        <div class="personal-content">
+          <p>
+            I buy and sell motorcycles not because I have a garage full of bikes, but because I love the thrill of riding the bike. I’ve made a few good deals and a few questionable ones. I enjoy negotiating prices like it’s a talent show, except my talent is pretending I’m not that interested. People say I know my way around bikes. I just smile and nod. Who needs coffee when throttle therapy wakes you up better?
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3>Bryan Joshua S.I Zablan</h3>
+          <p>Soon to be Cybersecurity Professional</p>
+        </div>
+        <div class="footer-links">
+          <a href="../../index.html">Home</a>
+          <a href="./index.html">About</a>
+          <a href="../Projects/index.html">Projects</a>
+          <a href="../Contact_information/index.html">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/" title="LinkedIn">
+            <img src="../../assets/img/LinkedIn.png" alt="LinkedIn Logo">
+          </a>
+          <a href="https://github.com/" title="GitHub">
+            <img src="../../assets/img/GitHub.png" alt="GitHub Logo">
+          </a>
+          <a href="https://www.facebook.com/" title="Facebook">
+            <img src="../../assets/img/facebook.png" alt="Facebook Logo">
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Bryan Joshua S.I Zablan. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../assets/js/script.js"></script>
+  <script src="./assets/js/scripts.js"></script>
+</body>
+</html>

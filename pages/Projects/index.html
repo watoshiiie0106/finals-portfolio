@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects - Bryan Joshua S.I Zablan</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../../assets/css/header.css"/>
+  <link rel="stylesheet" href="./assets/css/style.css"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+  <style>
+    .nav-link {
+      position: relative;
+      transition: color 0.3s ease;
+    }
+
+    .nav-link::after {
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      background-color: #fcbf49;
+      transition: width 0.3s ease;
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    .project-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-6px) scale(1.03);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    }
+
+    .projects-gallery {
+      padding: 60px 0;
+      background-color: #f4f4f4;
+    }
+
+    .project-preview {
+      width: 100%;
+      height: 200px;
+      border: none;
+      border-radius: 8px;
+    }
+
+    .project-tech .tech-tag {
+      background-color: #fcbf49;
+      padding: 4px 10px;
+      border-radius: 12px;
+      margin-right: 6px;
+      font-size: 0.9rem;
+      color: #000;
+    }
+
+    .btn {
+      padding: 8px 16px;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background-color: #fcbf49;
+      color: #000;
+    }
+
+    .btn-secondary {
+      background-color: #333;
+      color: #fff;
+      margin-left: 10px;
+    }
+
+    .projects-cta {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .projects-cta h3 {
+      margin-bottom: 10px;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .project-card {
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      padding: 1rem;
+    }
+
+    .project-overlay,
+    .preview-indicator {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="nav-container">
+      <div class="logo"></div>
+      <nav class="nav-menu">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../About me/index.html" class="nav-link">About Me</a>
+        <a href="../Education/index.html" class="nav-link">Education</a>
+        <a href="#projects" class="nav-link active">Projects</a>
+        <a href="../Contact_information/index.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <section id="projects" class="projects-gallery">
+      <div class="container">
+        <div class="section-header">
+          <h2><span class="highlight">My Projects</span></h2>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-image">
+              <iframe src="https://watoshiiie0106.github.io/brysite/" class="project-preview" title="WD Seatwork 1 Preview"></iframe>
+            </div>
+            <div class="project-content">
+              <h3>WD Seatwork - 1</h3>
+              <p>A beginner-friendly web development project showing HTML, CSS, and JavaScript basics with a clean layout.</p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://watoshiiie0106.github.io/brysite/" target="_blank" class="btn btn-primary">
+                  <i class="fas fa-external-link-alt"></i>Demo
+                </a>
+                <a href="https://github.com/watoshiiie0106/brysite" target="_blank" class="btn btn-secondary">
+                  <i class="fab fa-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-image">
+              <iframe src="https://watoshiiie0106.github.io/SW2/" class="project-preview" title="AWD Hero Section Preview"></iframe>
+            </div>
+            <div class="project-content">
+              <h3>AWD Hero Section</h3>
+              <p>A responsive hero section designed using modern UI/UX principles for advanced web design practice.</p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">Responsive</span>
+              </div>
+              <div class="project-links">
+                <a href="https://watoshiiie0106.github.io/SW2/" target="_blank" class="btn btn-primary">
+                  <i class="fas fa-external-link-alt"></i>Demo
+                </a>
+                <a href="https://github.com/watoshiiie0106/SW2/blob/main/index.html" target="_blank" class="btn btn-secondary">
+                  <i class="fab fa-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects-cta">
+          <h3>Interested in Collaborating?</h3>
+          <p>I’m always open to building new projects, learning experiences, and cybersecurity opportunities.</p>
+          <a href="../Contact_information/index.html" class="btn btn-primary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3>Bryan Joshua S.I Zablan</h3>
+          <p>Soon to be Cybersecurity Professional</p>
+        </div>
+        <div class="footer-links">
+          <a href="../../index.html">Home</a>
+          <a href="../About me/index.html">About</a>
+          <a href="../Projects/index.html">Projects</a>
+          <a href="../Contact_information/index.html">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com" title="LinkedIn" target="_blank">
+            <img src="../../assets/img/LinkedIn.png" alt="LinkedIn logo">
+          </a>
+          <a href="https://github.com/watoshiiie0106" title="GitHub" target="_blank">
+            <img src="../../assets/img/GitHub.png" alt="GitHub logo">
+          </a>
+          <a href="https://www.facebook.com/bryaaan0106" title="Facebook" target="_blank">
+            <img src="../../assets/img/facebook.png" alt="Facebook logo">
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Bryan Joshua S.I Zablan. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="./assets/js/scripts.js"></script>
+</body>
+</html>

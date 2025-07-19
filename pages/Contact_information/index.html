@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Me - Bryan Joshua S.I Zablan</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../../assets/css/header.css">
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+  <style>
+    .nav-link {
+      position: relative;
+      transition: color 0.3s ease;
+    }
+
+    .nav-link::after {
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      background-color: #fcbf49;
+      transition: width 0.3s ease;
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    .contact-content {
+      padding: 2rem;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .info-list {
+      list-style: none;
+      padding: 0;
+      margin-top: 1.5rem;
+    }
+
+    .info-list li {
+      margin: 1rem 0;
+      font-size: 1.1rem;
+    }
+
+    .info-list i {
+      margin-right: 10px;
+      color: #fcbf49;
+    }
+
+    .contact-hero {
+      padding: 60px 0;
+      background: #f4f4f4;
+    }
+
+    .about-intro {
+      font-size: 1.1rem;
+      color: #333;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="nav-container">
+      <div class="logo">
+        <!-- Optional logo -->
+      </div>
+      <nav class="nav-menu">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../About me/index.html" class="nav-link">About Me</a>
+        <a href="../Education/index.html" class="nav-link">Education</a>
+        <a href="../Projects/index.html" class="nav-link">Projects</a>
+        <a href="../Contact_information/index.html" class="nav-link active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <main>
+    <section class="contact-hero">
+      <div class="container">
+        <div class="contact-content">
+          <h1>Contact Me</h1>
+          <p class="about-intro">
+            Feel free to reach out if you're interested in collaborating
+          </p>
+          <ul class="info-list">
+            <li>
+              <i class="fas fa-envelope"></i>
+              <strong>Email:</strong> <a href="mailto:bryanstaines025@gmail.com">bryanstaines025@gmail.com</a>
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <strong>Location:</strong> Quezon City, Philippines
+            </li>
+            <li>
+              <i class="fas fa-briefcase"></i>
+              <strong>Looking for:</strong> Cybersecurity internship opportunities
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3>Bryan Joshua S.I Zablan</h3>
+          <p>Soon to be Cybersecurity Professional</p>
+        </div>
+        <div class="footer-links">
+          <a href="../../index.html">Home</a>
+          <a href="../About me/index.html">About</a>
+          <a href="../Projects/index.html">Projects</a>
+          <a href="../Contact_information/index.html">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/" title="LinkedIn" target="_blank">
+            <img src="../../assets/img/LinkedIn.png" alt="LinkedIn">
+          </a>
+          <a href="https://github.com/" title="GitHub" target="_blank">
+            <img src="../../assets/img/GitHub.png" alt="GitHub">
+          </a>
+          <a href="https://www.facebook.com/" title="Facebook" target="_blank">
+            <img src="../../assets/img/facebook.png" alt="Facebook">
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Bryan Joshua S.I Zablan. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../../assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bryan Zablan | Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+  <style>
+    .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px) scale(1.03);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    }
+
+    .nav-link {
+      position: relative;
+      transition: color 0.3s ease;
+    }
+
+    .nav-link::after {
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      background-color: #fcbf49;
+      transition: width 0.3s ease;
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    .nav-links a {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .nav-links a:hover {
+      color: #fcbf49;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="brand">Bryan Zablan</div>
+      <nav class="nav-links">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="./pages/About me/index.html" class="nav-link">About Me</a>
+        <a href="./pages/Education/index.html" class="nav-link">Education</a>
+        <a href="./pages/Projects/index.html" class="nav-link">Projects</a>
+        <a href="./pages/Contact_information/index.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-content container">
+      <div class="text">
+        <h1>Hello, I'm <span class="highlight">Bryan Joshua Sta. Ines Zablan</span></h1>
+        <p>I'm a student at Far Eastern University Institute of Technology currently studying a Bachelor of Science in Information Technology major in Cybersecurity.</p>
+        <div class="hero-buttons">
+          <a href="./pages/projects/index.html" class="btn-primary">View Projects</a>
+          <a href="./pages/About me/index.html" class="btn-secondary">More About Me</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="./assets/img/main_page_pic.jpg" alt="Bryan Zablan" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Links -->
+  <section class="quick-links">
+    <div class="container">
+      <h2>Quick Access</h2>
+      <div class="cards">
+        <div class="card">
+          <i class="fas fa-user"></i>
+          <h3>About Me</h3>
+          <a href="./pages/About me/index.html">Learn More</a>
+        </div>
+        <div class="card">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Education</h3>
+          <a href="./pages/Education/index.html">View Education</a>
+        </div>
+        <div class="card">
+          <i class="fas fa-code"></i>
+          <h3>Projects</h3>
+          <a href="./pages/Projects/index.html">See Projects</a>
+        </div>
+        <div class="card">
+          <i class="fas fa-envelope"></i>
+          <h3>Contact</h3>
+          <a href="./pages/Contact_information/index.html">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="info">
+        <h3>Bryan Zablan</h3>
+        <p>Soon to e Cybersecurity Professional</p>
+      </div>
+      <div class="footer-links">
+        <a href="./pages/About me/index.html">About</a>
+        <a href="./pages/Education/index.html">Education</a>
+        <a href="./pages/Projects/index.html">Projects</a>
+        <a href="./pages/Contact_information/index.html">Contact</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/yourprofile" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/yourusername" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://facebook.com/yourprofile" title="Facebook"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Bryan Joshua Sta. Ines Zablan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>

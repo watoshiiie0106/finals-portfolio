@@ -1,0 +1,124 @@
+/* ==== Contact Section ==== */
+.contact-hero {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  color: #fff;
+}
+
+.contact-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-content h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #00ffd0;
+}
+
+.about-intro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  color: #ccc;
+}
+
+.info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.info-list li {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: #eee;
+}
+
+.info-list i {
+  color: #00ffd0;
+}
+
+.info-list a {
+  color: #00ffd0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.info-list a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* ==== Footer Styles ==== */
+.footer {
+  background: #111;
+  color: #aaa;
+  padding: 40px 20px 10px;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-info h3 {
+  color: #00ffd0;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-info p {
+  color: #bbb;
+}
+
+.footer-links {
+  margin: 20px 0;
+}
+
+.footer-links a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #00ffd0;
+}
+
+.footer-social a img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.footer-social a img:hover {
+  transform: scale(1.15);
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  padding-top: 1rem;
+  border-top: 1px solid #222;
+  font-size: 0.85rem;
+  color: #777;
+}
