@@ -98,5 +98,5 @@ WD-Finals
 
 | Title     | Purpose            | Link                       |
 |----------|--------------------|----------------------------|
-| Portfolio | Portfolio Website  | *(Add your website URL)*   |
-| Github    | My Github account  | [GitHub](https://github.com/) |
+| Portfolio | Portfolio Website  | *(https://watoshiiie0106.github.io/finals-portfolio/index.html)*   |
+| Github    | My Github account  | [GitHub](https://github.com/watoshiiie0106) |
