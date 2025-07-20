@@ -147,10 +147,10 @@ body {
 .card {
   background: #fff;
   color: #111;
-  border-radius: 10px;
-  padding: 1.5rem;
-  width: 280px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  padding: 2rem; /* Increased padding */
+  width: 340px; /* Increased width */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 

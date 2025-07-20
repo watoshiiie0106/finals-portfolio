@@ -79,8 +79,9 @@ body {
   color: #ccc;
 }
 
-.hero-section .highlight {
-  color: #ccc;
+.highlight {
+  color: #bbb;
+  font-weight: 600;
 }
 
 .hero-buttons {
@@ -99,8 +100,8 @@ body {
 }
 
 .btn-primary {
-  background-color: #ccc;
-  color: #000;
+  background-color: #444;
+  color: #fff;
 }
 
 .btn-secondary {
@@ -109,6 +110,7 @@ body {
   background-color: transparent;
 }
 
+/* Hero Image */
 .hero-image {
   margin-top: 2rem;
   display: flex;
@@ -123,56 +125,64 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-
 /* Quick Links Section */
 .quick-links {
-  background-color: #f4f4f4;
-  padding: 4rem 1rem;
+  padding: 60px 20px;
+  background-color: #1a1a1a;
   text-align: center;
 }
 
 .quick-links h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  color: #fff;
   margin-bottom: 2rem;
-  color: #111;
 }
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 2rem;
   max-width: 1100px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .card {
-  background-color: #fff;
-  border-radius: 10px;
+  background-color: #2b2b2b;
   padding: 2rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card i {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #888;
+  color: #fff;
 }
 
 .card h3 {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
 }
 
 .card a {
-  color: #111;
+  color: #ccc;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
+  margin-top: auto;
+  transition: color 0.3s ease;
+}
+
+.card a:hover {
+  color: #aaa;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.05);
 }
 
 /* Footer */
