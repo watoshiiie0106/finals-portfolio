@@ -10,105 +10,6 @@
   <link rel="stylesheet" href="./assets/css/style.css"/>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
-  <style>
-    .nav-link {
-      position: relative;
-      transition: color 0.3s ease;
-    }
-
-    .nav-link::after {
-      content: "";
-      position: absolute;
-      bottom: -5px;
-      left: 0;
-      width: 0%;
-      height: 2px;
-      background-color: #fcbf49;
-      transition: width 0.3s ease;
-    }
-
-    .nav-link:hover::after {
-      width: 100%;
-    }
-
-    .project-card {
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .project-card:hover {
-      transform: translateY(-6px) scale(1.03);
-      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
-    }
-
-    .projects-gallery {
-      padding: 60px 0;
-      background-color: #f4f4f4;
-    }
-
-    .project-preview {
-      width: 100%;
-      height: 200px;
-      border: none;
-      border-radius: 8px;
-    }
-
-    .project-tech .tech-tag {
-      background-color: #fcbf49;
-      padding: 4px 10px;
-      border-radius: 12px;
-      margin-right: 6px;
-      font-size: 0.9rem;
-      color: #000;
-    }
-
-    .btn {
-      padding: 8px 16px;
-      border: none;
-      border-radius: 6px;
-      text-decoration: none;
-      display: inline-block;
-      margin-top: 10px;
-      cursor: pointer;
-    }
-
-    .btn-primary {
-      background-color: #fcbf49;
-      color: #000;
-    }
-
-    .btn-secondary {
-      background-color: #333;
-      color: #fff;
-      margin-left: 10px;
-    }
-
-    .projects-cta {
-      text-align: center;
-      margin-top: 50px;
-    }
-
-    .projects-cta h3 {
-      margin-bottom: 10px;
-    }
-
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 2rem;
-    }
-
-    .project-card {
-      background: #fff;
-      border-radius: 10px;
-      overflow: hidden;
-      padding: 1rem;
-    }
-
-    .project-overlay,
-    .preview-indicator {
-      display: none;
-    }
-  </style>
 </head>
 <body>
   <!-- Header -->
@@ -145,7 +46,6 @@
               <div class="project-tech">
                 <span class="tech-tag">HTML</span>
                 <span class="tech-tag">CSS</span>
-                <span class="tech-tag">JavaScript</span>
               </div>
               <div class="project-links">
                 <a href="https://watoshiiie0106.github.io/brysite/" target="_blank" class="btn btn-primary">
@@ -169,7 +69,6 @@
               <div class="project-tech">
                 <span class="tech-tag">HTML</span>
                 <span class="tech-tag">CSS</span>
-                <span class="tech-tag">Responsive</span>
               </div>
               <div class="project-links">
                 <a href="https://watoshiiie0106.github.io/SW2/" target="_blank" class="btn btn-primary">
@@ -184,8 +83,6 @@
         </div>
 
         <div class="projects-cta">
-          <h3>Interested in Collaborating?</h3>
-          <p>I’m always open to building new projects, learning experiences, and cybersecurity opportunities.</p>
           <a href="../Contact_information/index.html" class="btn btn-primary">Get In Touch</a>
         </div>
       </div>
